@@ -221,13 +221,13 @@ function toggleTag(tag){
 			else $(works[i]).toggleClass("hidden",true);
 		}
 	}
-	
+
 	return;
 }
 
 function zoominPicture(picture){
 	pictureID = 0+picture.attr('data-workID') - 1;
-	pictureSrc = "../img/portfolio/" + worksFileNames[pictureID];
+	pictureSrc = "img/portfolio/" + worksFileNames[pictureID];
 	pictureAlt = worksFileNames[pictureID].substring(0, worksFileNames[pictureID].length - 4);
 
 	$("#work-picture-fullscreen").attr('src',pictureSrc);
