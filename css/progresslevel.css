@@ -1,0 +1,119 @@
+.lg-level-bg{
+  background-color: #7f8286;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.lg-level-bg1{
+  background-color: #FFF;
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 2.5% auto;
+  width: 95%;
+  height: 95%;
+  border-radius: 50%;
+}
+.lg-level-percent{
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 2.5% auto;
+  width: 95%;
+  height: 95%;
+  border-radius: 50%;
+}
+.lg-level-white{
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.lg-level-white1{
+  background-color: white;
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 10% auto;
+  width: 80%;
+  height: 80%;
+  border-radius: 50%;
+}
+.lg-level-white1 p{
+  font-size: 32px;
+  position: relative;
+  font-weight: 600;
+  line-height: 1.5;
+}
+#lg-PT .lg-level-percent{
+  background-color: #57af8a;
+}
+#lg-PT .lg-level-white{
+  background-image: none;
+}
+
+#lg-EN .lg-level-percent{
+  background-color: #54bf4d;
+}
+#lg-EN .lg-level-white{
+  background-image:
+        linear-gradient(252deg, transparent 50%, #54bf4d 50%),
+        linear-gradient(90deg, var(--warm-light-grey)  50%, transparent 50%);
+}
+
+#lg-ES .lg-level-percent{
+  background-color: #63c144;
+}
+#lg-ES .lg-level-white{
+  background-image:
+        linear-gradient(234deg, transparent 50%, #63c144 50%),
+        linear-gradient(90deg, var(--warm-light-grey) 50%, transparent 50%);
+}
+
+#lg-NO .lg-level-percent{
+  background-color: #f7d660;
+}
+#lg-NO .lg-level-white{
+  background-image:
+        linear-gradient(124deg, transparent 50%, #f7d660 50%),
+        linear-gradient(90deg, var(--warm-light-grey) 50%, transparent 50%);
+}
+
+.lg-spoken:hover p::after{
+  font-style: italic;
+}
+#lg-PT p::after{
+  content: "10";
+}
+#lg-PT:hover p::after{
+  content: "Materna";
+  font-size: 17px;
+  line-height: 2.6;
+}
+#lg-EN p::after{
+  content: "9.5";
+}
+#lg-EN:hover p::after{
+  content: "Very"'\A'"fluent";
+  white-space: pre;
+  font-size: 17px;
+  line-height: 1.4;
+}
+#lg-ES p::after{
+  content: "9";
+}
+#lg-ES:hover p::after{
+  content: "Fluente";
+  font-size: 17px;
+  line-height: 2.6;
+}
+#lg-NO p::after{
+  content: "6";
+}
+#lg-NO:hover p::after{
+  content: "Lærer";
+  font-size: 17px;
+  line-height: 2.6;
+}

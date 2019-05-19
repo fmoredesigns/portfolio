@@ -1,0 +1,92 @@
+@media screen and (min-width:1301px) and (max-width: 1900px){
+  #content-meetme .module{
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1e5799+0,ffffff+51,ffffff+99&0+0,0.92+51,1+98 */
+  background: -moz-linear-gradient(left,  rgba(30,87,153,0) 0%, rgba(255,255,255,0.92) 51%, rgba(255,255,255,1) 98%, rgba(255,255,255,1) 99%) !important; /* FF3.6-15 */
+  background: -webkit-linear-gradient(left,  rgba(30,87,153,0) 0%,rgba(255,255,255,0.92) 51%,rgba(255,255,255,1) 98%,rgba(255,255,255,1) 99%) !important; /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right,  rgba(30,87,153,0) 0%,rgba(255,255,255,0.92) 51%,rgba(255,255,255,1) 98%,rgba(255,255,255,1) 99%) !important; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001e5799', endColorstr='#ffffff',GradientType=1 ) !important; /* IE6-9 */
+  }
+  #content-background .module{
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1e5799+0,ffffff+51,ffffff+99&0+0,0.92+51,1+98 */
+  background: -moz-linear-gradient(right,  rgba(30,87,153,0) 0%, rgba(255,255,255,0.92) 51%, rgba(255,255,255,1) 98%, rgba(255,255,255,1) 99%) !important; /* FF3.6-15 */
+  background: -webkit-linear-gradient(right,  rgba(30,87,153,0) 0%,rgba(255,255,255,0.92) 51%,rgba(255,255,255,1) 98%,rgba(255,255,255,1) 99%) !important; /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to left,  rgba(30,87,153,0) 0%,rgba(255,255,255,0.92) 51%,rgba(255,255,255,1) 98%,rgba(255,255,255,1) 99%) !important; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001e5799', endColorstr='#ffffff',GradientType=1 ) !important; /* IE6-9 */
+  }
+}
+@media screen and (max-width:1300px){
+  #content-meetme, #content-background{
+     background-color: #FFF;
+     min-width: 420px;
+     position: relative;
+  }
+  #content-meetme .title, #content-background .title{
+    text-align: center !important;
+  }
+  #content-meetme .content-text, #content-background .content-text{
+    text-align: center !important;
+  }
+  #content-meetme .module, #content-background .module{
+     background-color: rgba(255,255,255,0.9) !important;
+     background-image: none !important;
+  }
+}
+
+@media screen and (max-width:760px){
+  .quote{
+    margin-top: 130px !important;
+  }
+  .personality{
+    margin-top: 160px !important;
+  }
+  .trait{
+    width: 100% !important;
+    margin-bottom: 80px !important;
+  }
+  #select-courses{
+    margin-top: 20px;
+  }
+
+}
+
+@media screen and (max-width: 1100px){
+  .lg-spoken{
+    width: 49% !important;
+    margin-top: 40px !important;
+  }
+  .coding-language{
+    width: 49% !important;
+    margin-top: 70px !important;
+
+  }
+}
+
+@media screen and (max-width: 1025px){
+  .work-picture{
+    width: calc(47% - 2px);
+    padding-top: calc(47% - 2px);
+  }
+}
+
+@media screen and (max-width: 686px){
+  #tags{
+    margin-bottom: 5%;
+  }
+  .work-picture{
+    width: calc(100% - 2px);
+    padding-top: calc(100% - 2px);
+    margin: 5% 0 5% 0;
+  }
+  #work-fullscreen{
+    width: calc(100% - 50px);
+    height: calc(100% - 50px);
+    top: 0%;
+    left: 0%;
+  }
+  #work-fullscreen:not(.hidden) < body{
+    overflow: hidden;
+  }
+  #close-work-fullscreen{
+    text-align: left;
+  }
+}
