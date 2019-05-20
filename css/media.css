@@ -147,5 +147,7 @@
   .next-feature:hover{
     background-image: url("../img/arrow-right-whitebackground.png");
   }
-
+  #menu-meetme, #menu-background, #home{
+    display: none;
+  }
 }
