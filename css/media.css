@@ -89,9 +89,6 @@
     top: 0;
     left: 0;
   }
-  #close-work-fullscreen{
-    text-align: left;
-  }
 }
 
 @media screen and (max-width: 510px){
