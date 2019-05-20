@@ -122,7 +122,7 @@ li {
   position: relative;
   float: left;
   margin: 0 25px 0 25px;
-  letter-spacing: 1.1pt;
+  letter-spacing: 1.1px;
   cursor: pointer;
   animation: 0.6s ease-out 0s 1 slideInFromTop;
   -webkit-animation: 0.6s ease-out 0s 1 slideInFromTop;

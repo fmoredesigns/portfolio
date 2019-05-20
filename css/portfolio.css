@@ -41,7 +41,7 @@
   font-size: 120px;
   color: var(--main-grey);
   font-weight: 600;
-  letter-spacing: 1.2pt;
+  letter-spacing: 1.2px;
   animation: 0.8s ease-out 0s 1 slideInFromLeft;
   -webkit-animation: 0.8s ease-out 0s 1 slideInFromLeft;
   -moz-animation: 0.8s ease-out 0s 1 slideInFromLeft;
@@ -51,7 +51,7 @@
   margin-top: -14px;
   font-size: 15px;
   color: var(--main-blue-wb);
-  letter-spacing: 1.4pt;
+  letter-spacing: 1.4px;
   padding-left: 4px;
   animation: 0.8s ease-out 0s 1 slideInFromLeft;
   -webkit-animation: 0.8s ease-out 0s 1 slideInFromLeft;
@@ -197,7 +197,7 @@
 #work-picture-fullscreen-container{
   position: relative;
   top: 0;
-  height: calc(100% - 140px - 40px); /* 100% - heigh of description - padding*/
+  height: calc(100% - 140px - 40px); /* 100% - heigh of descripxion - padding*/
   text-align: center;
   padding: 20px;
   width: calc(100% - 40px);

@@ -24,7 +24,7 @@
   font-size: 120px;
   color: #FFF;
   font-weight: 600;
-  letter-spacing: 1.2pt;
+  letter-spacing: 1.2px;
   animation: 1s ease-out 0s 1 fadeIn;
   -webkit-animation: 1s ease-out 0s 1 fadeIn;
   -moz-animation: 1s ease-out 0s 1 fadeIn;
@@ -34,7 +34,7 @@
   margin-top: -14px;
   font-size: 15px;
   color: var(--main-blue);
-  letter-spacing: 1.4pt;
+  letter-spacing: 1.4px;
   padding-left: 4px;
   animation: 2.5s ease-out 0s 1 slideSignatureInFromTop;
   -webkit-animation: 2.5s ease-out 0s 1 slideSignatureInFromTop;
@@ -46,7 +46,7 @@
   margin-top: 20px;
   font-size: 15px;
   color: var(--main-blue);
-  letter-spacing: 7.5pt;
+  letter-spacing: 7.5px;
   padding-left: 4px;
   animation: 2.5s ease-out 0s 1 slideSignatureInFromTop;
   -webkit-animation: 2.5s ease-out 0s 1 slideSignatureInFromTop;
@@ -58,7 +58,7 @@
 /* MEET ME*/
 .title{
   font-size: 60px;
-  letter-spacing: 1.1pt;
+  letter-spacing: 1.1px;
   font-weight: 600;
   font-family: 'Bitter', serif;
   margin-bottom: 40px;
@@ -190,7 +190,7 @@
   padding: 20px 30px 20px 30px;
   font-family: 'Inconsolata', monospace;
   border-radius: 6px;
-  letter-spacing: 1.1pt;
+  letter-spacing: 1.1px;
 }
 #coding-languages{
   margin: 40px auto;
@@ -213,7 +213,7 @@
   font-size: 35px;
   font-weight: 600;
   text-align: center;
-  letter-spacing: 1.5pt;
+  letter-spacing: 1.5px;
   cursor:default;
 }
 .coding-language-title:hover{
@@ -258,7 +258,7 @@
 }
 .bg-featured-category-button{
   outline: none;
-  letter-spacing: 1.6pt;
+  letter-spacing: 1.6px;
   cursor:pointer;
   margin: 0px 10px 20px 10px;
 }
