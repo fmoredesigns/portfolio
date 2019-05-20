@@ -49,7 +49,7 @@
     letter-spacing: 4.5px;
   }
 }
-@media screen and (min-width: 420px) and (max-width: 536px){
+@media screen and (max-width: 536px){
   #expertise{
     letter-spacing: 1.5px;
     font-size: 3vw;
@@ -94,20 +94,21 @@
   }
 }
 
-@media screen and (max-width: 465px){
+@media screen and (max-width: 510px){
   #logo-design{
     font-size: 102px;
   }
 }
-@media screen and (max-width: 400px){
+@media screen and (max-width: 434px){
   #logo-design{
-    font-size: 90px;
+    font-size: 23vw;
   }
   #logo-signature{
     letter-spacing: 1.0px;
+    font-size: 4vw;
   }
   #myportfolio{
-    font-size: 40px;
+    font-size: 12vw;
   }
 }
 @media screen and (max-width: 600px){
