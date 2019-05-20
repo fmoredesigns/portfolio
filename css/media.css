@@ -54,7 +54,8 @@
 }
 @media screen and (min-width: 420px) and (max-width: 536px){
   #expertise{
-    letter-spacing: 2.5pt;
+    letter-spacing: 1.5pt;
+    font-size: 3vw;
   }
 }
 
@@ -119,5 +120,9 @@
   #logo-design{
     letter-spacing: 1.0pt;
     font-weight: 700;
+  }
+  #content-meetme .title, #content-background .title{
+    letter-spacing: 1.0pt;
+    font-size: 10vw;
   }
 }
