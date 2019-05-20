@@ -162,4 +162,26 @@
   #tags{
     top: 67px;
   }
+  #content-meetme .title, #content-background .title{
+    text-align: left !important;
+  }
+  #content-meetme .content-text, #content-background .content-text{
+    text-align: left !important;
+  }
+  #coding-languages{
+    margin-top: 0px;
+  }
+  .coding-language-element-ID{
+    margin-bottom: 3px;
+  }
+  .coding-language-title{
+    letter-spacing: 0px;
+  }
+  .bg-featured-text{
+    text-align: left;
+  }
+  #content-meetme .module, #content-background .module{
+    padding-left: 9%;
+    padding-right: 9%;
+  }
 }
