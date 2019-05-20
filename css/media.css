@@ -45,9 +45,6 @@
     width: 100% !important;
     margin-bottom: 80px !important;
   }
-  #select-courses{
-    margin-top: 20px;
-  }
   #expertise{
     letter-spacing: 4.5pt;
   }
@@ -137,4 +134,11 @@
     width: 100% !important;
     margin-top: 70px !important;
   }
+  .current-bg-featured{
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+    top: 25px;
+  }
+
 }

@@ -252,7 +252,7 @@
 }
 
 .select-bg-featured{
-  margin: 120px auto 20px auto;
+  margin: 120px auto 0px auto;
   text-align: center;
   position: relative;
 }
@@ -260,7 +260,7 @@
   outline: none;
   letter-spacing: 1.6pt;
   cursor:pointer;
-  margin: 0px 10px 0px 10px;
+  margin: 0px 10px 20px 10px;
 }
 .bg-featured-category-button-select{
   background-color: var(--main-blue);
@@ -308,6 +308,8 @@
   display:inline-block;
   vertical-align: middle;
   width: 60%;
+  position: relative;
+  top: -50px;
 }
 .bg-featured{
   padding-top: 90px;
@@ -345,6 +347,9 @@
   -webkit-transition: background-color 300ms linear;
   -ms-transition: background-color 300ms linear;
   transition: background-color 300ms linear;
+  position: relative;
+  top: 46px;
+  z-index: 2;
 }
 .bg-arrow-button:hover{
   border: solid 2px var(--main-blue);
