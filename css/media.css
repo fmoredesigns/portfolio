@@ -140,5 +140,11 @@
     padding-right: 5%;
     top: 25px;
   }
+  .previous-feature:hover{
+    background-image: url("../img/arrow-left-whitebackground.png");
+  }
+  .next-feature:hover{
+    background-image: url("../img/arrow-right-whitebackground.png");
+  }
 
 }
