@@ -344,25 +344,30 @@
   background-color: transparent;
   color: var(--main-blue);
   cursor:pointer;
-  -webkit-transition: background-color 300ms linear;
-  -ms-transition: background-color 300ms linear;
-  transition: background-color 300ms linear;
+  -webkit-transition: background-image 300ms linear;
+  -ms-transition: background-image 300ms linear;
+  transition: background-image 300ms linear;
   position: relative;
   top: 46px;
   z-index: 2;
 }
-.bg-arrow-button:hover{
-  border: solid 2px var(--main-blue);
-}
-.bg-arrow-button:active{
-  background-color: var(--main-blue);
-  color: #FFF;
-}
 .previous-feature{
   float:left;
-  padding-right: 10px;
+  background-image: url("../img/arrow-left-whitebackground.png");
+}
+.previous-feature:hover{
+  background-image: url("../img/arrow-left-hover.png");
+}
+.previous-feature:active{
+  background-image: url("../img/arrow-left-active.png");
 }
 .next-feature{
   float:right;
-  padding-left: 10px;
+  background-image: url("../img/arrow-right-whitebackground.png");
+}
+.next-feature:hover{
+  background-image: url("../img/arrow-right-hover.png");
+}
+.next-feature:active{
+  background-image: url("../img/arrow-right-active.png");
 }
