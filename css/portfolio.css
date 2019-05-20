@@ -81,6 +81,7 @@
   padding-bottom: 30px;
   text-align: left;
   position: sticky;
+  height: auto !important;
   top: calc(99px + 0px);
   z-index: 999;
   background-color: #FFF;
