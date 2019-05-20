@@ -34,7 +34,7 @@ var professionalTexts = [
   "Member of a temporary team in charge of supporting the Lean Team in order to achieve a better, safer and more effiecient workflow in the warehouse.",
   "Mainly focused on packing customers' orders. I have also worked as a restocker and cooperated with the optimizing team in order to improve the company's warehouse working flow.",
   "Designed the new official website for WoM2 (https://global.wom2.org/) and coded the frontend part - HTML, CSS and JavaScript. See below 2 of the mockups.",
-  "Troubleshoot and resolution of network and OS (Linux and UNIX) problems.<br>Customer Service via live chat and ticket system.",
+  "Troubleshoot and resolution of network and OS (Linux and UNIX) problems. Customer Service via live chat and ticket system.",
   "In charge of advertising imagery (e.g. Google Ads), marketing strategies and frontend website maintenance.",
   "Worked as main designer for the game WoM2. Responsible for emails structure, advertising imagery (e.g. Google Ads) and in-game icons and textures design. Also integrated the game design team for a short period of time."
 ];

@@ -290,6 +290,15 @@
   padding: 10px 20px 10px 20px !important;
   color: #FFF !important;
 }
+#select-professional::after{
+  content: "PROFESSIONAL";
+}
+#select-academic::after{
+  content: "ACADEMIC";
+}
+#select-courses::after{
+  content: "+ FORMATION";
+}
 #select-courses.bg-featured-category-button-select{
   background-color: #ec757c !important;
 }
