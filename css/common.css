@@ -4,7 +4,6 @@ html{
 body{
   font-family: 'Open Sans', sans-serif;
   color: var(--main-grey);
-  -webkit-font-smoothing: antialiased;
   height: 100%;
 }
 a{
