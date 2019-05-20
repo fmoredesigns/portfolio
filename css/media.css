@@ -150,4 +150,16 @@
   #menu-meetme, #menu-background, #home{
     display: none;
   }
+  .menu-content, .menu-base{
+    height: 67px;
+  }
+  .menu-item{
+    padding: 25px 0 24px 0;
+  }
+  #logo{
+    top: calc(50% + 67px);
+  }
+  #tags{
+    top: 67px;
+  }
 }

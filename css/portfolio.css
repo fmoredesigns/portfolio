@@ -78,11 +78,11 @@
 
 #tags{
   padding-top: 20px;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
   text-align: left;
   position: sticky;
   height: auto !important;
-  top: calc(99px + 0px);
+  top: 99px;
   z-index: 999;
   background-color: #FFF;
   width: 100%;
