@@ -122,7 +122,19 @@
     font-weight: 700;
   }
   #content-meetme .title, #content-background .title{
-    letter-spacing: 1.0pt;
+    letter-spacing: 0.9pt;
     font-size: 10vw;
+    font-weight: 700;
+  }
+  #lg-languages{
+    margin-top: 0px;
+  }
+  .lg-spoken{
+    width: 100% !important;
+    margin-top: 40px !important;
+  }
+  .coding-language{
+    width: 100% !important;
+    margin-top: 70px !important;
   }
 }

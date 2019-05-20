@@ -84,13 +84,15 @@
 .lg-spoken:hover p::after{
   font-style: italic;
 }
+.lg-spoken:hover p{
+  line-height: 1.2;
+}
 #lg-PT p::after{
   content: "10";
 }
 #lg-PT:hover p::after{
   content: "Materna";
   font-size: 17px;
-  line-height: 2.6;
 }
 #lg-EN p::after{
   content: "9.5";
@@ -99,7 +101,9 @@
   content: "Very"'\A'"fluent";
   white-space: pre;
   font-size: 17px;
-  line-height: 1.4;
+}
+#lg-EN:hover p{
+  line-height: 0.6;
 }
 #lg-ES p::after{
   content: "9";
@@ -107,7 +111,6 @@
 #lg-ES:hover p::after{
   content: "Fluente";
   font-size: 17px;
-  line-height: 2.6;
 }
 #lg-NO p::after{
   content: "6";
@@ -115,5 +118,4 @@
 #lg-NO:hover p::after{
   content: "Lærer";
   font-size: 17px;
-  line-height: 2.6;
 }

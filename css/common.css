@@ -5,6 +5,8 @@ body{
   font-family: 'Open Sans', sans-serif;
   color: var(--main-grey);
   height: 100%;
+  margin: 0 auto;
+  word-wrap: break-word;
 }
 a{
   text-decoration: none;
