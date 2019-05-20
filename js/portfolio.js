@@ -242,5 +242,5 @@ function zoominPicture(picture){
 $(function(){
 	$(".tag").on("click", function(){toggleTag($(this));});
 	$("#close-work-fullscreen, #work-picture-fullscreen-container").on("click", function(){$("#work-fullscreen").toggleClass("hidden",true);});
-	$(".work-picture-zoomin").on("touchstart click",function(){zoominPicture($(this));});
+	$(".work-picture-zoomin").on("click change touchstart tap",function(){zoominPicture($(this));});
 });
