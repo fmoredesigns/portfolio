@@ -147,6 +147,12 @@
   .next-feature:hover{
     background-image: url("../img/arrow-right-whitebackground.png");
   }
+  .next-feature{
+    float: left;
+  }
+  .bg-arrow-button{
+    margin-left: 20px;
+  }
   #menu-meetme, #menu-background, #home{
     display: none;
   }
@@ -177,7 +183,7 @@
   .coding-language-title{
     letter-spacing: 0px;
   }
-  .bg-featured-text{
+  .current-bg-featured{
     text-align: left;
   }
   #content-meetme .module, #content-background .module{
