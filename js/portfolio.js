@@ -234,6 +234,7 @@ function zoominPicture(picture){
 	$("#work-picture-fullscreen").attr('alt',pictureAlt);
 	$("#work-type-fullscreen").text(worksTypes[pictureID]);
 	$("#work-company-fullscreen").text(worksCompanies[pictureID]);
+	$("#work-fullscreen").toggleClass("hidden",false);
 
 	return;
 }
@@ -241,6 +242,5 @@ function zoominPicture(picture){
 $(function(){
 	$(".tag").on("click", function(){toggleTag($(this));});
 	$("#close-work-fullscreen, #work-picture-fullscreen-container").on("click", function(){$("#work-fullscreen").toggleClass("hidden",true);});
-	$(".work-picture-zoomin").on("click", function(){zoominPicture($(this));});
-	$(".work-picture-zoomin").on("click", function(){$("#work-fullscreen").toggleClass("hidden",false);});
+	$(".work-picture-zoomin").on("click",function(){zoominPicture($(this));});
 });
