@@ -49,5 +49,5 @@ function scrollTo(divID){
 
 $(function() {
   $("#home").on("click", function(){scrollTo(0);});
-	$("li.menu-item").on("click", function(){scrollTo("#content-"+$(this).attr('id').substring(5));});
+	$(".menu-item").on("click", function(){scrollTo("#content-"+$(this).attr('id').substring(5));});
 }); // On body load
