@@ -114,16 +114,17 @@
   color: #FFF;
 }
 #select-tags{
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
+  -webkit-align-items: center;
+	-webkit-appearance: menulist-button;
+	-webkit-rtl-ordering: logical;
+	-webkit-writing-mode: horizontal-tb;
 
   display: none;
   padding: 10px;
   background-color: var(--main-blue);
   color: white;
   border: 1px solid var(--main-blue);
-  border-left: 10px solid var(--main-blue);'
+  border-left: 10px solid var(--main-blue);
   border-right: 10px solid var(--main-blue);
   border-radius: 30px;
 }

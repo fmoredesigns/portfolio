@@ -171,7 +171,11 @@
   .menu-moved .menu-item:hover {
     padding-bottom: 22px !important;
     border-bottom: 2px var(--main-blue) solid;
-}
+  }
+  #main{
+    margin-top: 67px;
+    padding-top: 20px;
+    }
   #logo{
     top: calc(50% + 67px);
   }
