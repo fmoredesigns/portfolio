@@ -227,6 +227,6 @@
     display: none;
   }
   #select-tags{
-    display: block !important;
+    display: block;
   }
 }
