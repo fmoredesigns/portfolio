@@ -81,6 +81,7 @@
   padding-bottom: 20px;
   text-align: left;
   position: sticky;
+  position: -webkit-sticky;
   height: auto !important;
   top: 99px;
   z-index: 999;
