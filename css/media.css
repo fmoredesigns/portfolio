@@ -38,15 +38,19 @@
   .quote{
     margin-top: 130px !important;
   }
-  .personality{
-    margin-top: 160px !important;
+  #personality{
+    margin-top: 130px;
   }
   .trait{
     width: 100% !important;
     margin-bottom: 80px !important;
+    padding: 0;
   }
   #expertise{
     letter-spacing: 4.5px;
+  }
+  #coding{
+    margin-bottom: 60px;
   }
 }
 @media screen and (max-width: 536px){
@@ -202,6 +206,7 @@
     text-align: left;
   }
   #content-meetme .module, #content-background .module{
+    padding-top: 9%;
     padding-left: 9%;
     padding-right: 9%;
   }
