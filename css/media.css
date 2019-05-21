@@ -231,6 +231,6 @@
     display: none;
   }
   #select-tags{
-    display: block;
+    display: inline-block;
   }
 }

@@ -119,14 +119,19 @@
   appearance: none;
   -ms-appearance: none;
 
+  background-image: url("data:image/svg+xml;utf8,<svg fill='white' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+  background-repeat: no-repeat;
+  background-position: right;
   display: none;
   padding: 10px;
   background-color: var(--main-blue);
   color: white;
   border: 1px solid var(--main-blue);
   border-left: 10px solid var(--main-blue);
-  border-right: 10px solid red;
+  border-right: 10px solid var(--main-blue);
   border-radius: 30px;
+  width: auto;
+  padding-right: 30px;
 }
 .tag-option{
   padding: 10px;
