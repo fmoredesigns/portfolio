@@ -114,6 +114,10 @@
   color: #FFF;
 }
 #select-tags{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
   display: none;
   padding: 10px;
   background-color: var(--main-blue);
