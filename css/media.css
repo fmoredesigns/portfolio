@@ -181,6 +181,7 @@
   }
   #tags{
     top: 67px;
+    position: sticky !important;
   }
   #content-meetme .title, #content-background .title{
     text-align: left !important;
