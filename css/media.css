@@ -221,3 +221,12 @@
     margin-right:0px;
   }
 }
+
+@media screen and (max-width: 850px){
+  .tag, #filterby{
+    display: none;
+  }
+  #select-tags{
+    display: block !important;
+  }
+}

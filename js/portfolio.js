@@ -191,6 +191,25 @@ $(window).scroll(function() {
 	}
 });
 
+function selectTag(option){
+	var qtyWorks = works.length;
+	if (option == "all"){
+		for (var i=0; i < qtyWorks; i++){
+			$(works[i]).toggleClass("hidden",false);
+		}
+	}
+	else {
+		for (var i=0; i < qtyWorks; i++){
+			if ($(works[i]).attr('data-type') == option){
+				$(works[i]).toggleClass("hidden",false);
+			}
+			else $(works[i]).toggleClass("hidden",true);
+		}
+	}
+
+	return;
+}
+
 function toggleTag(tag){
 	var tags = ["#tag-0", "#tag-1", "#tag-2", "#tag-3", "#tag-4"];
 	var qtyWorks = works.length;
@@ -240,6 +259,7 @@ function zoominPicture(picture){
 }
 
 $(function(){
+  $('#select-tags').change(function(){selectTag($(this).val());});
 	$(".tag").on("click", function(){toggleTag($(this));});
 	$("#close-work-fullscreen, #work-picture-fullscreen-container").on("click", function(){$("#work-fullscreen").toggleClass("hidden",true);});
 	$(".work-picture, .work-picture-zoomin").on("click",function(){zoominPicture($(this));});

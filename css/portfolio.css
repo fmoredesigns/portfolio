@@ -113,6 +113,21 @@
   background-color: var(--main-blue);
   color: #FFF;
 }
+#select-tags{
+  display: none;
+  padding: 10px;
+  background-color: var(--main-blue);
+  color: white;
+  border: 1px solid var(--main-blue);
+  border-left: 10px solid var(--main-blue);'
+  border-right: 10px solid var(--main-blue);
+  border-radius: 30px;
+}
+.tag-option{
+  padding: 10px;
+  background-color: white;
+  color: var(--main-blue-wb);
+}
 .work-picture{
   width: 30%;
   margin: calc(1.6% - 2px);
