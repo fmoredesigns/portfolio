@@ -167,7 +167,7 @@
   font-size: 14px;
   font-weight:600;
   display: block;
-  margin-top: 3px; /*height of text*/
+  margin-top: 3px;
 }
 .work-picture:hover .work-picture-zoomin{
   color: var(--main-grey);
@@ -176,8 +176,8 @@
   position: absolute;
   top: 0;
   left: 0;
-  padding-top: calc(50% - 35px - 22px); /* half of the div - height of icon/2 - height of text*/
-  padding-bottom: calc(50% - 35px);
+  padding-top: calc(50% - 59px);
+  padding-bottom: calc(50% - 59px);
   background-color: rgba(255,255,255,0.9);
   z-index: 3;
   width: 100%;
@@ -187,9 +187,9 @@
 }
 .work-picture:hover .work-picture-zoomin:active{
   color: transparent;
-  font-size: 120px; /*height of icon*/
-  padding-top: calc(50% - 60px - 22px); /* half of the div - height of icon/2 - height of text*/
-  padding-bottom: calc(50% - 60px);
+  font-size: 121px;
+  padding-top: calc(50% - 93px);
+  padding-bottom: calc(50% - 93px);
 }
 
 #work-fullscreen{

@@ -247,7 +247,7 @@ function toggleTag(tag){
 function zoominPicture(picture){
 	pictureID = 0+picture.attr('data-workID') - 1;
 	pictureSrc = "img/portfolio/" + worksFileNames[pictureID];
-	pictureAlt = worksFileNames[pictureID].substring(0, worksFileNames[pictureID].length - 4);
+	pictureAlt = worksFileNames[pictureID].slice(0,-4);
 
 	$("#work-picture-fullscreen").attr('src',pictureSrc);
 	$("#work-picture-fullscreen").attr('alt',pictureAlt);
@@ -258,9 +258,32 @@ function zoominPicture(picture){
 	return;
 }
 
+function scrollTo(divID){
+  var currentScroll = $(window).scrollTop();
+
+  if (divID == 0){
+    $('html, body').animate({
+          scrollTop: 0
+      }, 200);
+  }
+  else{
+    if(currentScroll > 0){
+      $('html, body').animate({
+        scrollTop: $(divID).offset().top-99
+      }, 600);
+    }
+    else {
+      $('html, body').animate({
+        scrollTop: $(divID).offset().top-99
+      }, 600);
+    }
+  }
+}
+
 $(function(){
+	$('.tag, .tag-option').on("click", function(){scrollTo(0);});
   $('#select-tags').change(function(){selectTag($(this).val());});
 	$(".tag").on("click", function(){toggleTag($(this));});
-	$("#close-work-fullscreen, #work-picture-fullscreen-container").on("click", function(){$("#work-fullscreen").toggleClass("hidden",true);});
+	$("#close-work-fullscreen, #work-picture-fullscreen").on("click", function(){$("#work-fullscreen").toggleClass("hidden",true);});
 	$(".work-picture, .work-picture-zoomin").on("click",function(){zoominPicture($(this));});
 });
