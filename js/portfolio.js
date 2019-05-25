@@ -285,6 +285,12 @@ $(function(){
 	$('.tag').on("click", function(){scrollTo(0);});
   $('#select-tags').change(function(){selectTag($(this).val());});
 	$(".tag").on("click", function(){toggleTag($(this));});
-	$("#close-work-fullscreen, #work-picture-fullscreen").on("click", function(){$("#work-fullscreen").toggleClass("hidden",true);});
-	$(".work-picture, .work-picture-zoomin").on("click",function(){zoominPicture($(this));});
+	$("#close-work-fullscreen, #black-screen").on("click", function(){
+		$("#work-fullscreen").toggleClass("hidden",true);
+		$('#black-screen').toggleClass("hidden",true);
+	});
+	$(".work-picture-zoomin").on("click",function(){
+		zoominPicture($(this));
+		$('#black-screen').toggleClass("hidden",false);
+	});
 });
