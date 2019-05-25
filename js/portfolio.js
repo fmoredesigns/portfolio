@@ -281,7 +281,8 @@ function scrollTo(divID){
 }
 
 $(function(){
-	$('.tag, .tag-option').on("click", function(){scrollTo(0);});
+	$('#select-tags').change(function(){scrollTo(0);});
+	$('.tag').on("click", function(){scrollTo(0);});
   $('#select-tags').change(function(){selectTag($(this).val());});
 	$(".tag").on("click", function(){toggleTag($(this));});
 	$("#close-work-fullscreen, #work-picture-fullscreen").on("click", function(){$("#work-fullscreen").toggleClass("hidden",true);});
