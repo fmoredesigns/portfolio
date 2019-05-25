@@ -289,7 +289,7 @@ $(function(){
 		$("#work-fullscreen").toggleClass("hidden",true);
 		$('#black-screen').toggleClass("hidden",true);
 	});
-	$(".work-picture-zoomin").on("click",function(){
+	$(".work-picture, .work-picture-zoomin").on("click",function(){
 		zoominPicture($(this));
 		$('#black-screen').toggleClass("hidden",false);
 	});
